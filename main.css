@@ -1,0 +1,30 @@
+.header {
+    background-color: #ffffff;
+}
+    .logo {
+        color: #ffffff;
+        text-align: left;
+        vertical-align: auto;
+    }
+    .nav {
+        text-align: center;
+        dassplay flex:;
+    }
+    
+    .info {
+        color: #ffffff;
+        text-align: right;
+    }
+.page {
+    
+}
+    .banner {
+        background-color: #ffffff;
+    }
+    .features{
+        background-color: #1a1b1c;
+    }
+
+.footer {
+    background-color: #1a1b1c;
+}
