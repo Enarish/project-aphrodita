@@ -1,34 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .header {
-    background-color: #ffffff;
+    background-color: #262728;;
 }
-    .logo {
-        color: #ffffff;
-        text-align: left;
-        vertical-align: auto;
-    }
-    .logo__name {
-        color: aqua
-    }
-
-        .nav {
-        text-align: center;
-        dassplay flex:;
-    }
-    
-    .info {
-        color: #ffffff;
-        text-align: right;
-    }
-.page {
-    
+.container {
+    width: 1060px;
+    display: flex;
 }
-    .banner {
-        background-color: #ffffff;
-    }
-    .features{
-        background-color: #1a1b1c;
-    }
 
-.footer {
-    background-color: #1a1b1c;
+.logo {
+    text-align: left;
+}
+.nav {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+}
+.info {   
+    text-align: right;;
+}
+
+.banner {
+    text-align: center;
+}
+
+.logo__name {
+    color: #e1942a;
+    text-decoration: none;
+}
+.info__tel{
+    color: #fff;
+
+}
+.info__work-time {
+    color: #e1942a;
+}
+
+.features__header {
+    margin: 0 auto;
+    text-align: center;
+}
+.features__list {
+    margin: 0 auto;
+    text-align: center`;
+    display: flex;
 }
