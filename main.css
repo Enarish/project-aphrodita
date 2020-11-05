@@ -6,7 +6,11 @@
         text-align: left;
         vertical-align: auto;
     }
-    .nav {
+    .logo__name {
+        color: aqua
+    }
+
+        .nav {
         text-align: center;
         dassplay flex:;
     }
