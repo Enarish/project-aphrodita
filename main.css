@@ -9,7 +9,10 @@ body {
 }
 .container {
     width: 1060px;
+    margin: 0 auto;
+    align-items: center;
     display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -46,6 +49,12 @@ body {
 }
 .features__list {
     margin: 0 auto;
-    text-align: center`;
+    text-align: center;
     display: flex;
+}
+.features__item-1, .features__item-2, .features__item-3  {
+    list-style-type: none;
+}
+.list__item-1, .list__item-2, .list__item-3 {
+    list-style-type: circle;
 }
