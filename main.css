@@ -43,18 +43,3 @@ body {
     color: #e1942a;
 }
 
-.features__header {
-    margin: 0 auto;
-    text-align: center;
-}
-.features__list {
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-}
-.features__item-1, .features__item-2, .features__item-3  {
-    list-style-type: none;
-}
-.list__item-1, .list__item-2, .list__item-3 {
-    list-style-type: circle;
-}
